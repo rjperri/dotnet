@@ -1,0 +1,10 @@
+/home/rjperri/Development/dotNet/aspnetcoreapp/bin/Debug/netcoreapp2.0/aspnetcoreapp.deps.json
+/home/rjperri/Development/dotNet/aspnetcoreapp/bin/Debug/netcoreapp2.0/aspnetcoreapp.runtimeconfig.json
+/home/rjperri/Development/dotNet/aspnetcoreapp/bin/Debug/netcoreapp2.0/aspnetcoreapp.runtimeconfig.dev.json
+/home/rjperri/Development/dotNet/aspnetcoreapp/bin/Debug/netcoreapp2.0/aspnetcoreapp.dll
+/home/rjperri/Development/dotNet/aspnetcoreapp/bin/Debug/netcoreapp2.0/aspnetcoreapp.pdb
+/home/rjperri/Development/dotNet/aspnetcoreapp/obj/Debug/netcoreapp2.0/aspnetcoreapp.csproj.CoreCompileInputs.cache
+/home/rjperri/Development/dotNet/aspnetcoreapp/obj/Debug/netcoreapp2.0/aspnetcoreapp.AssemblyInfoInputs.cache
+/home/rjperri/Development/dotNet/aspnetcoreapp/obj/Debug/netcoreapp2.0/aspnetcoreapp.AssemblyInfo.cs
+/home/rjperri/Development/dotNet/aspnetcoreapp/obj/Debug/netcoreapp2.0/aspnetcoreapp.dll
+/home/rjperri/Development/dotNet/aspnetcoreapp/obj/Debug/netcoreapp2.0/aspnetcoreapp.pdb
