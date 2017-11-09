@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System;
 using System.Linq;
+using ConsoleTables;
 
 namespace BucketlistConsole
 {
@@ -131,14 +132,19 @@ namespace BucketlistConsole
         public string execute()
         {
             Console.WriteLine();
+            var table = new ConsoleTable("ID", "Bucket List Name", "Bucket List Description");
+
             this._bucketListRepository
                 .GetBucketLists()
                 .ForEach(delegate (BucketListItem bl)
                 {
-                    Console.WriteLine(bl.Id + " : " + bl.Name + " - " + bl.Description);
+                    table.AddRow(bl.Id, bl.Name, bl.Description);
                 });
+            table.Write(Format.Alternative);
+            Console.WriteLine();
             return "ViewBucketList";
         }
+        
     }
 
     public class Status
