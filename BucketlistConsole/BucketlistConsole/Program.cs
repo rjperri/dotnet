@@ -27,6 +27,7 @@ namespace BucketlistConsole
             int input;
             do
             {
+                Console.Clear();
                 DisplayTitle(bucketListRepository.GetBucketLists().Count());
                 Console.Write(mainMenuCommand.displayTitle());
                 Console.Write(" : ");
@@ -132,13 +133,13 @@ namespace BucketlistConsole
         public string execute()
         {
             Console.WriteLine();
-            var table = new ConsoleTable("ID", "Bucket List Name", "Bucket List Description");
+            var table = new ConsoleTable("ID", "NAME", "DESCRIPTION", "STATUS");
 
             this._bucketListRepository
                 .GetBucketLists()
                 .ForEach(delegate (BucketListItem bl)
                 {
-                    table.AddRow(bl.Id, bl.Name, bl.Description);
+                    table.AddRow(bl.Id, bl.Name, bl.Description, bl.Status.Description);
                 });
             table.Write(Format.Alternative);
             Console.WriteLine();
@@ -149,13 +150,8 @@ namespace BucketlistConsole
 
     public class Status
     {
-        public string Code;
-        public string Description;
-
-        public Status(String Code)
-        {
-            this.Code = Code;
-        }
+        public string Code { get; set; }
+        public string Description { get; set; }
     }
 
     public class Task
@@ -198,7 +194,7 @@ namespace BucketlistConsole
 
         public void SaveBucketListItem(BucketListItem bucketListItem)
         {
-            bucketListItem.Status = new Status("A");
+            bucketListItem.Status = new Status{Code = "C", Description = "Created"};
             _table.AddBucketListItem(bucketListItem);
         }
     }

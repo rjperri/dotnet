@@ -9,3 +9,14 @@ C:\Users\perri\Development\dotnet\BucketlistConsole\BucketlistConsole\obj\Debug\
 C:\Users\perri\Development\dotnet\BucketlistConsole\BucketlistConsole\obj\Debug\netcoreapp2.0\BucketlistConsole.AssemblyInfo.cs
 C:\Users\perri\Development\dotnet\BucketlistConsole\BucketlistConsole\obj\Debug\netcoreapp2.0\BucketlistConsole.dll
 C:\Users\perri\Development\dotnet\BucketlistConsole\BucketlistConsole\obj\Debug\netcoreapp2.0\BucketlistConsole.pdb
+c:\Users\bobp\Development\dotnet\BucketlistConsole\BucketlistConsole\bin\Debug\netcoreapp2.0\BucketlistConsole.deps.json
+c:\Users\bobp\Development\dotnet\BucketlistConsole\BucketlistConsole\bin\Debug\netcoreapp2.0\BucketlistConsole.runtimeconfig.json
+c:\Users\bobp\Development\dotnet\BucketlistConsole\BucketlistConsole\bin\Debug\netcoreapp2.0\BucketlistConsole.runtimeconfig.dev.json
+c:\Users\bobp\Development\dotnet\BucketlistConsole\BucketlistConsole\bin\Debug\netcoreapp2.0\BucketlistConsole.dll
+c:\Users\bobp\Development\dotnet\BucketlistConsole\BucketlistConsole\bin\Debug\netcoreapp2.0\BucketlistConsole.pdb
+c:\Users\bobp\Development\dotnet\BucketlistConsole\BucketlistConsole\obj\Debug\netcoreapp2.0\BucketlistConsole.csprojResolveAssemblyReference.cache
+c:\Users\bobp\Development\dotnet\BucketlistConsole\BucketlistConsole\obj\Debug\netcoreapp2.0\BucketlistConsole.csproj.CoreCompileInputs.cache
+c:\Users\bobp\Development\dotnet\BucketlistConsole\BucketlistConsole\obj\Debug\netcoreapp2.0\BucketlistConsole.AssemblyInfoInputs.cache
+c:\Users\bobp\Development\dotnet\BucketlistConsole\BucketlistConsole\obj\Debug\netcoreapp2.0\BucketlistConsole.AssemblyInfo.cs
+c:\Users\bobp\Development\dotnet\BucketlistConsole\BucketlistConsole\obj\Debug\netcoreapp2.0\BucketlistConsole.dll
+c:\Users\bobp\Development\dotnet\BucketlistConsole\BucketlistConsole\obj\Debug\netcoreapp2.0\BucketlistConsole.pdb
