@@ -11,6 +11,7 @@ namespace BucketlistConsole
         public static void Main()
         {
             //TODO: Create some predefined BuckelistItems with different statuses 
+            //TODO: Make statuses in its own table, during bucketlist save, query for status and then add to bucket list <-- more of the "FIG WAY"
             Table table = new Table();
             BucketListRepository bucketListRepository = new BucketListRepository(table);
             List<ICommand> mainMenu = new List<ICommand>();
