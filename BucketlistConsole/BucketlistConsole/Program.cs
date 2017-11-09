@@ -10,6 +10,7 @@ namespace BucketlistConsole
     {
         public static void Main()
         {
+            //TODO: Create some predefined BuckelistItems with different statuses 
             Table table = new Table();
             BucketListRepository bucketListRepository = new BucketListRepository(table);
             List<ICommand> mainMenu = new List<ICommand>();
