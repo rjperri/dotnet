@@ -12533,28 +12533,33 @@
     ]
   },
   "packageFolders": {
-    "/home/rjperri/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\perri\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "/home/rjperri/Development/dotNet/SampleWebApp/SampleWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\perri\\Development\\dotnet\\SampleWebApp\\SampleWebApp.csproj",
       "projectName": "SampleWebApp",
-      "projectPath": "/home/rjperri/Development/dotNet/SampleWebApp/SampleWebApp.csproj",
-      "packagesPath": "/home/rjperri/.nuget/packages/",
-      "outputPath": "/home/rjperri/Development/dotNet/SampleWebApp/obj/",
+      "projectPath": "C:\\Users\\perri\\Development\\dotnet\\SampleWebApp\\SampleWebApp.csproj",
+      "packagesPath": "C:\\Users\\perri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\perri\\Development\\dotnet\\SampleWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/rjperri/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\perri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

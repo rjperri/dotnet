@@ -8,3 +8,14 @@
 /home/rjperri/Development/dotNet/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.AssemblyInfo.cs
 /home/rjperri/Development/dotNet/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.dll
 /home/rjperri/Development/dotNet/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.pdb
+C:\Users\perri\Development\dotnet\TodoApi\bin\Debug\netcoreapp2.0\TodoApi.deps.json
+C:\Users\perri\Development\dotnet\TodoApi\bin\Debug\netcoreapp2.0\TodoApi.runtimeconfig.json
+C:\Users\perri\Development\dotnet\TodoApi\bin\Debug\netcoreapp2.0\TodoApi.runtimeconfig.dev.json
+C:\Users\perri\Development\dotnet\TodoApi\bin\Debug\netcoreapp2.0\TodoApi.dll
+C:\Users\perri\Development\dotnet\TodoApi\bin\Debug\netcoreapp2.0\TodoApi.pdb
+C:\Users\perri\Development\dotnet\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.csprojResolveAssemblyReference.cache
+C:\Users\perri\Development\dotnet\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.csproj.CoreCompileInputs.cache
+C:\Users\perri\Development\dotnet\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.AssemblyInfoInputs.cache
+C:\Users\perri\Development\dotnet\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.AssemblyInfo.cs
+C:\Users\perri\Development\dotnet\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.dll
+C:\Users\perri\Development\dotnet\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.pdb

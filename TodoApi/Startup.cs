@@ -26,6 +26,7 @@ namespace TodoApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<TodoContext>(opt => opt.UseInMemoryDatabase("TodoList"));
+            services.AddDbContext<ThingContext>(opt => opt.UseInMemoryDatabase("ThingList"));
             services.AddMvc();
         }
 

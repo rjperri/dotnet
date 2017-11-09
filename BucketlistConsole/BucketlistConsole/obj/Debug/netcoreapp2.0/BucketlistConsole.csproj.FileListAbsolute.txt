@@ -1,0 +1,11 @@
+C:\Users\perri\Development\dotnet\BucketlistConsole\BucketlistConsole\bin\Debug\netcoreapp2.0\BucketlistConsole.deps.json
+C:\Users\perri\Development\dotnet\BucketlistConsole\BucketlistConsole\bin\Debug\netcoreapp2.0\BucketlistConsole.runtimeconfig.json
+C:\Users\perri\Development\dotnet\BucketlistConsole\BucketlistConsole\bin\Debug\netcoreapp2.0\BucketlistConsole.runtimeconfig.dev.json
+C:\Users\perri\Development\dotnet\BucketlistConsole\BucketlistConsole\bin\Debug\netcoreapp2.0\BucketlistConsole.dll
+C:\Users\perri\Development\dotnet\BucketlistConsole\BucketlistConsole\bin\Debug\netcoreapp2.0\BucketlistConsole.pdb
+C:\Users\perri\Development\dotnet\BucketlistConsole\BucketlistConsole\obj\Debug\netcoreapp2.0\BucketlistConsole.csprojResolveAssemblyReference.cache
+C:\Users\perri\Development\dotnet\BucketlistConsole\BucketlistConsole\obj\Debug\netcoreapp2.0\BucketlistConsole.csproj.CoreCompileInputs.cache
+C:\Users\perri\Development\dotnet\BucketlistConsole\BucketlistConsole\obj\Debug\netcoreapp2.0\BucketlistConsole.AssemblyInfoInputs.cache
+C:\Users\perri\Development\dotnet\BucketlistConsole\BucketlistConsole\obj\Debug\netcoreapp2.0\BucketlistConsole.AssemblyInfo.cs
+C:\Users\perri\Development\dotnet\BucketlistConsole\BucketlistConsole\obj\Debug\netcoreapp2.0\BucketlistConsole.dll
+C:\Users\perri\Development\dotnet\BucketlistConsole\BucketlistConsole\obj\Debug\netcoreapp2.0\BucketlistConsole.pdb
