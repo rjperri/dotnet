@@ -1280,23 +1280,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bobp\\.nuget\\packages\\": {},
+    "C:\\Users\\perri\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\bobp\\Development\\dotnet\\BucketlistConsole\\BucketlistConsole\\BucketlistConsole.csproj",
+      "projectUniqueName": "C:\\Users\\perri\\Development\\dotnet\\BucketlistConsole\\BucketlistConsole\\BucketlistConsole.csproj",
       "projectName": "BucketlistConsole",
-      "projectPath": "C:\\Users\\bobp\\Development\\dotnet\\BucketlistConsole\\BucketlistConsole\\BucketlistConsole.csproj",
-      "packagesPath": "C:\\Users\\bobp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bobp\\Development\\dotnet\\BucketlistConsole\\BucketlistConsole\\obj\\",
+      "projectPath": "C:\\Users\\perri\\Development\\dotnet\\BucketlistConsole\\BucketlistConsole\\BucketlistConsole.csproj",
+      "packagesPath": "C:\\Users\\perri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\perri\\Development\\dotnet\\BucketlistConsole\\BucketlistConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\bobp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\perri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1304,8 +1307,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://figdevteam.pkgs.visualstudio.com/_packaging/FIGDevTeam/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
@@ -1321,14 +1323,14 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "ConsoleTables": {
+            "target": "Package",
+            "version": "2.1.0"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
-          },
-          "ConsoleTables": {
-            "target": "Package",
-            "version": "2.1.0"
           }
         },
         "imports": [

@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System;
 using System.Linq;
-using ConsoleTables;
 
 namespace BucketlistConsole
 {
@@ -12,7 +11,7 @@ namespace BucketlistConsole
         {
             //TODO: Create some predefined BuckelistItems with different statuses 
             //TODO: Make statuses in its own table, during bucketlist save, query for status and then add to bucket list <-- more of the "FIG WAY"
-            Table table = new Table();
+            DataTable table = new DataTable();
             BucketListRepository bucketListRepository = new BucketListRepository(table);
             List<ICommand> mainMenu = new List<ICommand>();
 
@@ -62,170 +61,6 @@ namespace BucketlistConsole
             Console.WriteLine("Bucket List Completor");
             Console.WriteLine("You have " + bucketListCount + " Bucket Lists");
             Console.WriteLine("--------------------------------------------------");
-        }
-
-    }
-
-
-    public interface ICommand
-    {
-        string displayTitle();
-        string execute();
-    }
-
-
-    public class CreateBucketlistItemCommand : ICommand
-    {
-        private IBucketListRepository _bucketListRepository;
-
-        public CreateBucketlistItemCommand(IBucketListRepository bucketListRepository)
-        {
-            this._bucketListRepository = bucketListRepository;
-        }
-
-        public string displayTitle()
-        {
-            return "Create a New Bucket List Item";
-        }
-
-        public string execute()
-        {
-            BucketListItem bucketListItem = new BucketListItem();
-            Console.WriteLine();
-            Console.Write("Enter a BucketList Name: ");
-            var name = Console.ReadLine();
-            bucketListItem.Name = name;
-            Console.Write("Enter a description for " + name + ": ");
-            var description = Console.ReadLine();
-            bucketListItem.Description = description;
-            _bucketListRepository.SaveBucketListItem(bucketListItem);
-            Console.WriteLine();
-            Console.WriteLine(name + "...Saved");
-            return "CreateNewBucketListItem";
-        }
-    }
-
-    public class MainMenuCommand : ICommand
-    {
-        public string displayTitle()
-        {
-            return "Main Menu";
-        }
-
-        public string execute()
-        {
-            return "MainMenu";
-        }
-    }
-
-    public class ViewBucketlistCommand : ICommand
-    {
-        private IBucketListRepository _bucketListRepository;
-
-        public ViewBucketlistCommand(IBucketListRepository bucketListRepository)
-        {
-            this._bucketListRepository = bucketListRepository;
-        }
-
-        public string displayTitle()
-        {
-            return "View Bucket Lists";
-        }
-
-        public string execute()
-        {
-            Console.WriteLine();
-            var table = new ConsoleTable("ID", "NAME", "DESCRIPTION", "STATUS");
-
-            this._bucketListRepository
-                .GetBucketLists()
-                .ForEach(delegate (BucketListItem bl)
-                {
-                    table.AddRow(bl.Id, bl.Name, bl.Description, bl.Status.Description);
-                });
-            table.Write(Format.Alternative);
-            Console.WriteLine();
-            return "ViewBucketList";
-        }
-        
-    }
-
-    public class Status
-    {
-        public string Code { get; set; }
-        public string Description { get; set; }
-    }
-
-    public class Task
-    {
-        public long Id { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public bool Completed { get; set; }
-    }
-
-
-    public class BucketListItem
-    {
-        public long Id { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public Status Status { get; set; }
-        public List<Task> Tasks;
-    }
-
-    public interface IBucketListRepository
-    {
-        List<BucketListItem> GetBucketLists();
-        void SaveBucketListItem(BucketListItem bucketListItem);
-    }
-
-    public class BucketListRepository : IBucketListRepository
-    {
-        private Table _table;
-
-        public BucketListRepository(Table table)
-        {
-            this._table = table;
-        }
-
-        public List<BucketListItem> GetBucketLists()
-        {
-            return _table.QueryBucketLists();
-        }
-
-        public void SaveBucketListItem(BucketListItem bucketListItem)
-        {
-            bucketListItem.Status = new Status{Code = "C", Description = "Created"};
-            _table.AddBucketListItem(bucketListItem);
-        }
-    }
-
-    public class Table
-    {
-        private readonly List<BucketListItem> _BucketListItems;
-        private int _NextBucketListItemId;
-
-        public Table()
-        {
-            this._BucketListItems = new List<BucketListItem>();
-            this._NextBucketListItemId = 0;
-        }
-
-        public void AddBucketListItem(BucketListItem bucketListItem)
-        {
-            bucketListItem.Id = ++this._NextBucketListItemId;
-            this._BucketListItems.Add(bucketListItem);
-        }
-
-        public List<BucketListItem> QueryBucketLists()
-        {
-            return this._BucketListItems;
-        }
-
-        public BucketListItem getBucketListItem(int Id)
-        {
-            return this._BucketListItems.Find(b => b.Id == Id);
         }
 
     }
