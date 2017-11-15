@@ -1,13 +1,8 @@
-﻿namespace BucketlistConsole
+﻿namespace BucketlistConsole.Domain
 {
-    public class Status : IDomainObject
+    public class Status
     {
         public string Code { get; set; }
         public string Description { get; set; }
-
-        public string DisplayName()
-        {
-            return Description;
-        }
     }
 }

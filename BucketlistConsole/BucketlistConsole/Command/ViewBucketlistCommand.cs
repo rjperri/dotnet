@@ -1,4 +1,5 @@
 ﻿using System;
+using BucketlistConsole.Domain;
 using ConsoleTables;
 
 namespace BucketlistConsole
