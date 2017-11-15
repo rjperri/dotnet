@@ -9,6 +9,12 @@ namespace BucketlistConsole.Domain
         private IBucketListRepository _BucketListRepository;
         private BucketListItem _BucketListItem;
 
+        public CreateBucketListEventAction(IBucketListRepository bucketListRepository, BucketListItem bucketListItem)
+        {
+            this._BucketListRepository = bucketListRepository;
+            this._BucketListItem = bucketListItem;
+        }
+
         public void PerformAction()
         {
             this._BucketListRepository.SaveBucketListItem(this._BucketListItem);

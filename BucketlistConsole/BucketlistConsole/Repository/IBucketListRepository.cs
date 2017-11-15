@@ -6,5 +6,6 @@ namespace BucketlistConsole
     {
         List<BucketListItem> GetBucketLists();
         void SaveBucketListItem(BucketListItem bucketListItem);
+        BucketListItem FindBucketListItemById(int id);
     }
 }

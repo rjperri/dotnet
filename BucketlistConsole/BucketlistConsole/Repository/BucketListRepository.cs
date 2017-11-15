@@ -13,13 +13,18 @@ namespace BucketlistConsole
 
         public List<BucketListItem> GetBucketLists()
         {
-            return _table.QueryBucketLists();
+            return this._table.QueryBucketLists();
         }
 
         public void SaveBucketListItem(BucketListItem bucketListItem)
         {
             bucketListItem.Status = new Status{Code = "C", Description = "Created"};
-            _table.AddBucketListItem(bucketListItem);
+           this. _table.AddBucketListItem(bucketListItem);
+        }
+
+        public BucketListItem FindBucketListItemById(int id)
+        {
+            return this._table.getBucketListItem(id);
         }
     }
 }
