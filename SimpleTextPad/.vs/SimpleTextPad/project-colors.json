@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e6688b62-9e30-4b12-9014-1230c0a780e7": {
+      "ProjectGuid": "e6688b62-9e30-4b12-9014-1230c0a780e7",
+      "DisplayName": "SimpleTextPad",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,15 @@
+C:\Users\bobp\source\repos\Simple-Nural-Net\Simple-Nural-Net\bin\Debug\net6.0\Simple-Nural-Net.exe
+C:\Users\bobp\source\repos\Simple-Nural-Net\Simple-Nural-Net\bin\Debug\net6.0\Simple-Nural-Net.deps.json
+C:\Users\bobp\source\repos\Simple-Nural-Net\Simple-Nural-Net\bin\Debug\net6.0\Simple-Nural-Net.runtimeconfig.json
+C:\Users\bobp\source\repos\Simple-Nural-Net\Simple-Nural-Net\bin\Debug\net6.0\Simple-Nural-Net.dll
+C:\Users\bobp\source\repos\Simple-Nural-Net\Simple-Nural-Net\bin\Debug\net6.0\ref\Simple-Nural-Net.dll
+C:\Users\bobp\source\repos\Simple-Nural-Net\Simple-Nural-Net\bin\Debug\net6.0\Simple-Nural-Net.pdb
+C:\Users\bobp\source\repos\Simple-Nural-Net\Simple-Nural-Net\obj\Debug\net6.0\Simple-Nural-Net.csproj.AssemblyReference.cache
+C:\Users\bobp\source\repos\Simple-Nural-Net\Simple-Nural-Net\obj\Debug\net6.0\Simple-Nural-Net.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bobp\source\repos\Simple-Nural-Net\Simple-Nural-Net\obj\Debug\net6.0\Simple-Nural-Net.AssemblyInfoInputs.cache
+C:\Users\bobp\source\repos\Simple-Nural-Net\Simple-Nural-Net\obj\Debug\net6.0\Simple-Nural-Net.AssemblyInfo.cs
+C:\Users\bobp\source\repos\Simple-Nural-Net\Simple-Nural-Net\obj\Debug\net6.0\Simple-Nural-Net.csproj.CoreCompileInputs.cache
+C:\Users\bobp\source\repos\Simple-Nural-Net\Simple-Nural-Net\obj\Debug\net6.0\Simple-Nural-Net.dll
+C:\Users\bobp\source\repos\Simple-Nural-Net\Simple-Nural-Net\obj\Debug\net6.0\ref\Simple-Nural-Net.dll
+C:\Users\bobp\source\repos\Simple-Nural-Net\Simple-Nural-Net\obj\Debug\net6.0\Simple-Nural-Net.pdb
+C:\Users\bobp\source\repos\Simple-Nural-Net\Simple-Nural-Net\obj\Debug\net6.0\Simple-Nural-Net.genruntimeconfig.cache

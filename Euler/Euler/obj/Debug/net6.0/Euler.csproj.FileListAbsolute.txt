@@ -1,0 +1,14 @@
+C:\Users\bobp\source\repos\Euler\Euler\bin\Debug\net6.0\Euler.exe
+C:\Users\bobp\source\repos\Euler\Euler\bin\Debug\net6.0\Euler.dll
+C:\Users\bobp\source\repos\Euler\Euler\obj\Debug\net6.0\Euler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bobp\source\repos\Euler\Euler\obj\Debug\net6.0\Euler.AssemblyInfoInputs.cache
+C:\Users\bobp\source\repos\Euler\Euler\obj\Debug\net6.0\Euler.AssemblyInfo.cs
+C:\Users\bobp\source\repos\Euler\Euler\obj\Debug\net6.0\Euler.csproj.CoreCompileInputs.cache
+C:\Users\bobp\source\repos\Euler\Euler\obj\Debug\net6.0\Euler.dll
+C:\Users\bobp\source\repos\Euler\Euler\obj\Debug\net6.0\ref\Euler.dll
+C:\Users\bobp\source\repos\Euler\Euler\obj\Debug\net6.0\Euler.pdb
+C:\Users\bobp\source\repos\Euler\Euler\bin\Debug\net6.0\Euler.deps.json
+C:\Users\bobp\source\repos\Euler\Euler\bin\Debug\net6.0\Euler.runtimeconfig.json
+C:\Users\bobp\source\repos\Euler\Euler\bin\Debug\net6.0\ref\Euler.dll
+C:\Users\bobp\source\repos\Euler\Euler\bin\Debug\net6.0\Euler.pdb
+C:\Users\bobp\source\repos\Euler\Euler\obj\Debug\net6.0\Euler.genruntimeconfig.cache

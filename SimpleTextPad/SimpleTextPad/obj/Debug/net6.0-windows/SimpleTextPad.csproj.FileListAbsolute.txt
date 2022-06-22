@@ -1,0 +1,17 @@
+C:\Users\bobp\source\repos\SimpleTextPad\SimpleTextPad\bin\Debug\net6.0-windows\SimpleTextPad.exe
+C:\Users\bobp\source\repos\SimpleTextPad\SimpleTextPad\bin\Debug\net6.0-windows\SimpleTextPad.deps.json
+C:\Users\bobp\source\repos\SimpleTextPad\SimpleTextPad\bin\Debug\net6.0-windows\SimpleTextPad.runtimeconfig.json
+C:\Users\bobp\source\repos\SimpleTextPad\SimpleTextPad\bin\Debug\net6.0-windows\SimpleTextPad.dll
+C:\Users\bobp\source\repos\SimpleTextPad\SimpleTextPad\bin\Debug\net6.0-windows\ref\SimpleTextPad.dll
+C:\Users\bobp\source\repos\SimpleTextPad\SimpleTextPad\bin\Debug\net6.0-windows\SimpleTextPad.pdb
+C:\Users\bobp\source\repos\SimpleTextPad\SimpleTextPad\obj\Debug\net6.0-windows\SimpleTextPad.csproj.AssemblyReference.cache
+C:\Users\bobp\source\repos\SimpleTextPad\SimpleTextPad\obj\Debug\net6.0-windows\SimpleTextPad.SimpleTextPad.resources
+C:\Users\bobp\source\repos\SimpleTextPad\SimpleTextPad\obj\Debug\net6.0-windows\SimpleTextPad.csproj.GenerateResource.cache
+C:\Users\bobp\source\repos\SimpleTextPad\SimpleTextPad\obj\Debug\net6.0-windows\SimpleTextPad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bobp\source\repos\SimpleTextPad\SimpleTextPad\obj\Debug\net6.0-windows\SimpleTextPad.AssemblyInfoInputs.cache
+C:\Users\bobp\source\repos\SimpleTextPad\SimpleTextPad\obj\Debug\net6.0-windows\SimpleTextPad.AssemblyInfo.cs
+C:\Users\bobp\source\repos\SimpleTextPad\SimpleTextPad\obj\Debug\net6.0-windows\SimpleTextPad.csproj.CoreCompileInputs.cache
+C:\Users\bobp\source\repos\SimpleTextPad\SimpleTextPad\obj\Debug\net6.0-windows\SimpleTextPad.dll
+C:\Users\bobp\source\repos\SimpleTextPad\SimpleTextPad\obj\Debug\net6.0-windows\ref\SimpleTextPad.dll
+C:\Users\bobp\source\repos\SimpleTextPad\SimpleTextPad\obj\Debug\net6.0-windows\SimpleTextPad.pdb
+C:\Users\bobp\source\repos\SimpleTextPad\SimpleTextPad\obj\Debug\net6.0-windows\SimpleTextPad.genruntimeconfig.cache
